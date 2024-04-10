@@ -11,5 +11,6 @@ Iniziare stampando il countdown nella console e dopo stamparlo in pagina.
     se i secondi sono >= 10 decremento
     altrimenti
        setto i secondi a 0
+- [] definisco una funzione per stampare i secondo > 10 con lo 0 davanti
 - [] quando il timer arriverà a 0 stamperà prima in console e poi in pagina "Buon anno!"
 - [] infine faccio il reset del timer in modo da farlo fermare
