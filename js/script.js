@@ -15,9 +15,11 @@ const countDown = setInterval(function () {
     } else {
         // stampo in pagina 
         document.getElementById("seconds").innerText = "Buon anno!";
+        // stampo in console
+        console.log("Buon anno!");
         // fermo l'intervallo
         clearInterval(countDown);
-        console.log("Buon anno!");
+        
     }
     
 }, 1000);
