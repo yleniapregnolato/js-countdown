@@ -9,15 +9,15 @@ document.getElementById("seconds").innerText = seconds;
 // definisco un intervallo all'interno di una variabile per decrementare i secondi fino ad arrivare a 0
 
 const countDown = setInterval(function () {
-    if (seconds <= 10) {
-        seconds--
-    } else if (seconds = 0) {
-        seconds.innerText = 0;
+     seconds-- ;
+    if (seconds >= 1) {
+        printSeconds(seconds);
+    } else {
+        document.getElementById("seconds").innerText = "Buon anno!";
+        clearInterval(countDown);
+        console.log("Buon anno!");
     }
-
-    // stampa
-    document.getElementById("seconds").innerText = seconds;
-    printSeconds(seconds);
+    
     
 }, 1000);
 
