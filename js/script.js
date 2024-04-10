@@ -18,6 +18,7 @@ const countDown = setInterval(function () {
     // stampa
 
     document.getElementById("seconds").innerText = seconds;
-
+    printSeconds(seconds);
 }, 1000);
 
+ 
