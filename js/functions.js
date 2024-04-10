@@ -5,5 +5,8 @@
 function printSeconds (s) {
     let sSts = (s < 10)? ("0" + s.toString()) : s.toString();
 
+    clearInterval(s.toString());
+
     document.getElementById("seconds").innerText = sSts;
 }
+
